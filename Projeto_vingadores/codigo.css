@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*Fundo*/
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Titulo*/
+.titulo{
+    text-align: center;
+    color:#c0c0c0;
+    text-shadow: 1px 1px 3px red;
+    font-size: 500%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Permanent Marker';
+    font-style: cursive;
+}
+
+.titulo:hover{
+    color: red;
+    text-shadow: 1px 1px 3px #c0c0c0;
+}
+
+/*img*/
+.img{
+    width: 55%;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*Menu*/
+.menu{
+    position: absolute;
+    right: 60%;
+    transform: translateX(50%);
+    width: 70%;
+}
+
+.menu li{
+    font-size: 200%;
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
+    background-color: #c0c0c0;
+    border: 2px solid red;
+    border-radius: 15px;
+    padding: 4px;
+    margin-left: 15%;
+    font-family: 'Permanent Marker';
+    font-style: cursive;
+}
+
+#li1:hover{
+    background-color: red;
+    border: #c0c0c0;
+    border-radius: 15px;
+    color: #c0c0c0;
+}
+
+#li2:hover{
+    background-color: red;
+    border: #c0c0c0;
+    border-radius: 15px;
+    color: #c0c0c0;
+}
+
+#li3:hover{
+    background-color: red;
+    border: #c0c0c0;
+    border-radius: 15px;
+    color: #c0c0c0;
+}
+
+#rodape{
+    clear: both;
+    border-top: 1px solid #c0c0c0;
+    display: block;
+}
+#rodape{
+    text-align: center;
+    color: #c0c0c0;
+}
