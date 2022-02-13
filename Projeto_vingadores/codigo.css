@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-/*Fundo*/
+
+/*Estilização geral*/
 body{
     background-color: black;
     margin: 0px;
@@ -11,7 +12,7 @@ body{
     text-align: center;
     color:#c0c0c0;
     text-shadow: 1px 1px 3px red;
-    font-size: 500%;
+    font-size: 350%;
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: 'Permanent Marker';
@@ -23,7 +24,7 @@ body{
     text-shadow: 1px 1px 3px #c0c0c0;
 }
 
-/*img*/
+/*imagem*/
 .img{
     width: 55%;
     position: relative;
@@ -32,11 +33,29 @@ body{
     transform: translateX(-50%);
 }
 
+/*Conteúdo*/
+h2{
+    color: #c0c0c0;
+    text-shadow: 1px 1px 1px red;
+    font-family: 'Permanent Marker';
+    font-style: cursive;
+    font-size: 220%;
+    margin-left: 5%;
+}
+.info{
+    color: #c0c0c0;
+    text-shadow: 1px 1px 1px red;
+    text-indent: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
 /*Menu*/
 .menu{
     position: absolute;
     right: 60%;
-    transform: translateX(50%);
+    transform: translateX(49%);
     width: 70%;
 }
 
@@ -61,14 +80,12 @@ body{
     border-radius: 15px;
     color: #c0c0c0;
 }
-
 #li2:hover{
     background-color: red;
     border: #c0c0c0;
     border-radius: 15px;
     color: #c0c0c0;
 }
-
 #li3:hover{
     background-color: red;
     border: #c0c0c0;
@@ -76,12 +93,12 @@ body{
     color: #c0c0c0;
 }
 
+/*Rodape*/
 #rodape{
     clear: both;
     border-top: 1px solid #c0c0c0;
     display: block;
-}
-#rodape{
     text-align: center;
     color: #c0c0c0;
 }
+
